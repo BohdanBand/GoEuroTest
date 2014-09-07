@@ -17,11 +17,11 @@ public final class MessageUtils {
     }
 
     public static void showCommunicationErrorMsg(CommunicationException e) {
-        System.out.println("Can't load data: "+e.getMessage());
+        System.out.println("Oops. Can't load data: "+e.getMessage());
     }
 
     public static void showIOExceptionErrorMsg(IOException e) {
-        System.out.println("Can't save file: "+e.getMessage());
+        System.out.println("Oops. Can't save file: "+e.getMessage());
     }
 
     public static void showDoneMsg(String filePath) {
